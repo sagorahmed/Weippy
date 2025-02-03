@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 250px;
+      height: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* This ensures that the content is spaced out evenly */
+    }
+    .button {
+      padding: 10px;
+      background-color: #0084b4;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      font-size: 14px;
+    }
+    .button:hover {
+      background-color: #00678a;
+    }
+    .twitter-link {
+      margin-top: 10px;
+      display: block;
+      color: #1da1f2;
+      text-decoration: none;
+      text-align: center;
+    }
+    .update-message {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #555;
+      text-align: center;
+    }
+    #search-bar {
+      margin: 10px 0;
+      width: calc(100% - 20px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    #user-list {
+      margin-top: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .user-link {
+      display: block;
+      margin-bottom: 5px;
+      color: #1DA1F2;
+      text-decoration: none;
+    }
+    .user-link:hover {
+      text-decoration: underline;
+    }
+    /* No need for absolute positioning, flexbox will handle this */
+    .builder {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 10px;
+      color: #1DA1F2;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- In your popup.html -->
+  <button id="toggleButton">Turn On</button>
+  <div class="update-message">Don't forget to follow these accounts to stay updated on Story Protocol!</div>
+  <input type="text" id="search-bar" placeholder="Search usernames...">
+  <div id="user-list">Loading...</div>
+  <a href="https://x.com/sagorahmed549" class="builder" target="_blank">Developed by SagorAhmed</a>
+  <script src="popup.js"></script>
+</body>
+</html>
