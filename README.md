@@ -54,6 +54,9 @@ This extension is only supported on chromium based browsers, such as:
 - **Unified Update View:**  
   I plan to introduce a feature that allows users to view updates from specified Story Protocol accounts in a single, consolidated interface within the extension.
 
+- **Publish on the Chrome Web Store:**  
+  To make it easier for users to install and receive automatic updates, I plan to publish the extension on the **Chrome Web Store**. This will streamline the installation process and ensure users always have the latest features.
+
 - **Your Tweets Are IP:**  
   I will work on integrating the extension with the **Story Protocol blockchain**. This will allow users to **register their tweets as IP assets**, protecting and validating their content directly on the blockchain.
 
